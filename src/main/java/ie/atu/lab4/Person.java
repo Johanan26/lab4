@@ -13,7 +13,7 @@ public class Person {
     @NotBlank(message = "Name cannot be Blank")
     private String name;
 
-    @NotNull(message = "Title cannot be empty")
+    @NotBlank(message = "Title cannot be empty")
     private String title;
 
     @PositiveOrZero(message = "employeeid must be greater or equal to zero")
