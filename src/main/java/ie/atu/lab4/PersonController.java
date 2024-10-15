@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class PersonController {
 
-    @PostMapping("(/person/createPerson")
+    @PostMapping("/person/createPerson")
     public String createPerson(@RequestBody @Valid Person personRequest){
         return "Details added";
     }
